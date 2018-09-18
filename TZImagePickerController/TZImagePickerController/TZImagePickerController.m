@@ -56,8 +56,8 @@
 
     // Default appearance, you can reset these after this method
     // 默认的外观，你可以在这个方法后重置
-    self.oKButtonTitleColorNormal   = [UIColor colorWithRed:(83/255.0) green:(179/255.0) blue:(17/255.0) alpha:1.0];
-    self.oKButtonTitleColorDisabled = [UIColor colorWithRed:(83/255.0) green:(179/255.0) blue:(17/255.0) alpha:0.5];
+    self.oKButtonTitleColorNormal   = [UIColor colorWithRed:172/255.0 green:0/255.0 blue:66/255.0 alpha:1.0];//[UIColor colorWithRed:(83/255.0) green:(179/255.0) blue:(17/255.0) alpha:1.0];
+    self.oKButtonTitleColorDisabled = [UIColor colorWithRed:172/255.0 green:0/255.0 blue:66/255.0 alpha:0.5];//[UIColor colorWithRed:(83/255.0) green:(179/255.0) blue:(17/255.0) alpha:0.5];
     
     self.navigationBar.barTintColor = [UIColor colorWithRed:(34/255.0) green:(34/255.0)  blue:(34/255.0) alpha:1.0];
     self.navigationBar.tintColor = [UIColor whiteColor];
@@ -280,10 +280,10 @@
 
 - (void)configDefaultImageName {
     self.takePictureImageName = @"takePicture80";
-    self.photoSelImageName = @"photo_sel_photoPickerVc";
-    self.photoDefImageName = @"photo_def_photoPickerVc";
-    self.photoNumberIconImage = [self createImageWithColor:nil size:CGSizeMake(24, 24) radius:12]; // @"photo_number_icon";
-    self.photoPreviewOriginDefImageName = @"preview_original_def";
+    self.photoSelImageName = @"picker_select";//@"photo_sel_photoPickerVc";
+    self.photoDefImageName = @"picker_unselect";//@"photo_def_photoPickerVc";
+    self.photoNumberIconImage = [self createImageWithColor:[UIColor colorWithRed:172/255.0 green:0/255.0 blue:66/255.0 alpha:1.0] size:CGSizeMake(48, 48) radius:24];
+    self.photoPreviewOriginDefImageName = @"photo_original_normal";
     self.photoOriginDefImageName = @"photo_original_def";
     self.photoOriginSelImageName = @"photo_original_sel";
 }
