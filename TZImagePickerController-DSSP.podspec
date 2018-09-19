@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TZImagePickerController-DSSP"
-  s.version      = "3.0.7.0"
+  s.version      = "3.0.7.1"
   s.summary      = "A clone of UIImagePickerController, support picking multiple photos、original photo and video"
   s.homepage     = "http://172.23.105.201:4080/cusc-ios-base-component/TZImagePickerController-DSSP"
   s.license      = "MIT"
